@@ -68,15 +68,10 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/dotenv'
   ],
-    /*
-  ** Build configuration
+  /*
+  ** Server configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-   
-    extend(config, ctx) {
-    }
-  }
+  server: {
+    port: 1515, // default: 3000
+  },
 }
