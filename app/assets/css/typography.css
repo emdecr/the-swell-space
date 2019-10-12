@@ -2,6 +2,35 @@
 html, body {
   font: 106.3%/1.45 "proxima-nova", sans-serif; /* 16px = 100%, 18px = 112.50% as base font size */
   -webkit-font-smoothing: antialiased;
+  color: #4A4A4A;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: bebas-neue-rounded, sans-serif;
+    margin: 0;
+}
+
+/* @font-face {
+    font-family: 'FinancierDisplayTestWeb', serif;
+    src: url('~assets/fonts/FinancierDisplayTest-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.serif {
+    font-family: 'FinancierDisplayTestWeb', serif;
+}
+
+.sans-serif {
+    font-family: bebas-neue-rounded, sans-serif;
+}
+
+.mono {
+    font-family: input-mono, monospace;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .hs1 {
@@ -46,8 +75,14 @@ html, body {
 }
 
 /* FONT AWESOME */
-svg {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #0104BB;
+}
+
+/* LISTS */
+.lst-n {
+    list-style-type: none;
 }

@@ -1,7 +1,7 @@
 <template>
     <main class="flex-all flex--ai-c flex--jc-c">
        <section >
-            <p>
+            <p class="serif">
                 coming soon
             </p>
             <a   href="mailto:hello@emilydelacruz.com">hello@emilydelacruz.com</a><br/>

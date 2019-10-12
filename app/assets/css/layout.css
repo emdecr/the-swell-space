@@ -49,3 +49,23 @@ body {
 .flex--jc-c {
     justify-content: center;
 }
+
+.flex--jc-sb {
+    justify-content: space-between;
+}
+
+/* MARGIN */
+
+/* PADDING */
+
+.p0 {
+    padding: 0;
+}
+
+
+
+/* WIDTH */
+
+.w100 {
+    width: 100%;
+}

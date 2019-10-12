@@ -29,7 +29,27 @@ export default {
     script: [
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: 'favicons/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: 'favicons/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: 'favicons/favicon-32x32.png',
+      },
+      { 
+        rel: 'stylesheet',
+        href: 'https://use.typekit.net/quu5xdo.css' 
+      }
     ],
   },
   /*
