@@ -1,10 +1,12 @@
 <template>
   <main class="flex-all flex--ai-c flex--jc-c">
-    <section>
-      <p class="mono">...</p>
-      <a href="mailto:hello@emilydelacruz.com" class="mono">hello@emilydelacruz.com</a>
-      <br>
-      <a href="https://twitter.com/emdecr" target="_blank" class="mono">@emdecr</a>
+    <section class="mono">
+      <p>Expand and contract</p>source:
+      <a href="https://emilydelacruz.com">emilydelacruz.com</a>
+      <br>email:
+      <a href="mailto:hello@emilydelacruz.com">hello@emilydelacruz.com</a>
+      <br>twitter:
+      <a href="https://twitter.com/emdecr" target="_blank">@emdecr</a>
     </section>
   </main>
 </template>
@@ -18,7 +20,8 @@ export default {
 
 <style lang="scss" scoped>
 main {
-  min-height: 100vh;
+  min-height: 80vh;
+  font-size: 0.8rem;
 }
 
 p {
