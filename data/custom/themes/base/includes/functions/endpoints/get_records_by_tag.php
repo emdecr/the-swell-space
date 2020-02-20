@@ -45,7 +45,7 @@ class get_records_by_tag_custom_route extends WP_REST_Controller {
 		$records = new WP_Query( $args );
 		
 		if (empty($posts)) {
-			return new WP_Error( 'empty_tag', 'There are no records in with this tag.', array('status' => 404) );
+			return new WP_Error( 'empty_tag', 'There are no records with this tag.', array('status' => 404) );
 
 		}
 
