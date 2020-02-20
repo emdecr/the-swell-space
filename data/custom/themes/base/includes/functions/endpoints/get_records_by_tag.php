@@ -42,14 +42,14 @@ class get_records_by_tag_custom_route extends WP_REST_Controller {
             'tag_id' => $id
 		);
 
-		$posts = new WP_Query( $args );
+		$records = new WP_Query( $args );
 		
 		if (empty($posts)) {
 			return new WP_Error( 'empty_tag', 'There are no records in with this tag.', array('status' => 404) );
 
 		}
 
-		return new WP_REST_Response( $resultsArray, 200 );
+		return new WP_REST_Response( $records, 200 );
 	}
 
 
