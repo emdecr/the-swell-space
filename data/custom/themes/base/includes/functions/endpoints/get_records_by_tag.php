@@ -39,6 +39,7 @@ class get_records_by_tag_custom_route extends WP_REST_Controller {
 		$id = $request['id'];
 		
 		$args = array(
+			'post_type' => 'record',
             'tag_id' => $id
 		);
 
