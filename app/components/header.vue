@@ -6,13 +6,19 @@
         <span>the swell space</span>
       </nuxt-link>
     </div>
-    <!-- <nav>
-           <ul class="flex-all lst-n p0">
-               <li class="mono uppercase menu-item"><nuxt-link to="/about">About</nuxt-link></li>
-               <li class="mono uppercase menu-item"><nuxt-link to="/topics">Topics</nuxt-link></li>
-               <li class="mono uppercase menu-item"><nuxt-link to="#contact">Contact</nuxt-link></li>
-           </ul>
-    </nav>-->
+    <nav>
+      <ul class="flex-all lst-n p0">
+        <li class="mono uppercase menu-item">
+          <nuxt-link to="/about">About</nuxt-link>
+        </li>
+        <li class="mono uppercase menu-item">
+          <nuxt-link to="/topics">Topics</nuxt-link>
+        </li>
+        <li class="mono uppercase menu-item">
+          <nuxt-link to="#contact">Contact</nuxt-link>
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 
