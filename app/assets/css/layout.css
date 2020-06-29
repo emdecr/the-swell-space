@@ -1,57 +1,57 @@
 html {
-    word-spacing: 1px;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
-    overflow-x: hidden;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-  
+
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /* WRAPPERS */
 .wrapper-lrg {
-    width: 85%;
-    max-width: 1520px;
-    margin: 0 auto;
+  width: 85%;
+  max-width: 1520px;
+  margin: 0 auto;
 }
 .wrapper-med {
-    width: 75%;
-    max-width: 1368px;
-    margin: 0 auto;
+  width: 75%;
+  max-width: 1368px;
+  margin: 0 auto;
 }
 
 .wrapper-sml {
-    width: 65%;
-    max-width: 1080px;
-    margin: 0 auto;
+  width: 65%;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 /* FLEXBOX */
 .flex-all {
-    display: flex;
+  display: flex;
 }
 
 .flex--ai-c {
-    align-items: center;
+  align-items: center;
 }
 
 .flex--jc-c {
-    justify-content: center;
+  justify-content: center;
 }
 
 .flex--jc-sb {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 /* MARGIN */
@@ -59,13 +59,77 @@ body {
 /* PADDING */
 
 .p0 {
-    padding: 0;
+  padding: 0;
 }
-
-
 
 /* WIDTH */
 
 .w100 {
-    width: 100%;
+  width: 100%;
+}
+
+/*  */
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* CONTENT */
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  font-family: miller-banner, serif;
+  font-family: kepler-std, serif;
+}
+
+.content p {
+  font-family: miller-banner, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  font-family: kepler-std, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content a {
+  color: rgb(1, 2, 187);
+  border-bottom: 2px solid rgb(1, 2, 187);
+}
+
+.content a:hover,
+.content a:focus,
+.content a:active {
+  color: #6062ba;
+  border-bottom: 2px solid #6062ba;
+}
+
+.content p + p {
+  margin-top: 1rem;
+}
+
+.content img {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.content figure {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+h2.container {
+  margin-top: 4rem;
+}
+
+.content figcaption {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  font-family: "input-mono", monospace;
 }
